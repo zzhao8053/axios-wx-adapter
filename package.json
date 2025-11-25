@@ -1,0 +1,41 @@
+{
+  "name": "axios-wx-adapter",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --clean",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzhao8053/axios-wx-adapter.git"
+  },
+  "keywords": [
+    "wechat",
+    "miniprogram",
+    "request",
+    "http",
+    "typescript"
+  ],
+  "author": "zzhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzhao8053/axios-wx-adapter/issues"
+  },
+  "homepage": "https://github.com/zzhao8053/axios-wx-adapter#readme",
+  "packageManager": "pnpm@10.18.2+sha512.9fb969fa749b3ade6035e0f109f0b8a60b5d08a1a87fdf72e337da90dcc93336e2280ca4e44f2358a649b83c17959e9993e777c2080879f3801e6f0d999ad3dd",
+  "dependencies": {
+    "merge": "^2.1.1"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "description": ""
+}
