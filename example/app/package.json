@@ -1,0 +1,35 @@
+{
+  "name": "weapp-vite-template",
+  "type": "module",
+  "version": "1.0.2",
+  "private": true,
+  "description": "原生微信小程序 weapp-vite 模板",
+  "author": "ice breaker <1324318532@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weapp-vite/weapp-vite.git",
+    "directory": "templates/weapp-vite-template"
+  },
+  "bugs": {
+    "url": "https://github.com/weapp-vite/weapp-vite/issues"
+  },
+  "keywords": [],
+  "scripts": {
+    "dev": "weapp-vite dev",
+    "dev:open": "weapp-vite dev -o",
+    "build": "weapp-vite build",
+    "open": "weapp-vite open",
+    "g": "weapp-vite generate"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "^4.1.0",
+    "sass": "^1.94.0",
+    "typescript": "^5.9.3",
+    "weapp-tailwindcss": "^4.8.3",
+    "weapp-vite": "5.9.4"
+  },
+  "dependencies": {
+    "@vakan/wechat-axios": "^0.0.1"
+  }
+}
